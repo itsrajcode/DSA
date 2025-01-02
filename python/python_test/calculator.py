@@ -3,6 +3,7 @@ def add(*args):
 
 def subtract(*args):
     result = args[0]
+    print(result)
     for num in args[1:]:
         result -= num
     return result
